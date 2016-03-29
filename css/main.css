@@ -1,0 +1,48 @@
+body, button{
+    font: 90% 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+#toggle{
+    padding: 10px 5em;
+}
+
+#interim{
+    margin: 1em 0 0 0;
+    padding: 7px 1em;
+    background-color: #fafafa;
+    box-shadow: inset 0 0 3px #aaa;
+}
+
+#interim:before{
+    content: "入力:";
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 0 1em;
+    margin-right: 11em:
+}
+
+#confirm{
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+
+#confirm div{
+    padding: 5px 2em;
+    border-top: 1px dashed #ccc;
+}
+
+#confirm div:first-child{
+    border-top: none;
+}
+
+#status{
+    padding: 5px 2em;
+    background-color: #fafafa;
+    box-shadow: inset 0 0 3px #aaa;
+}
+
+#status:before{
+    content: "ステータス: ";
+}
