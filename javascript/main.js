@@ -1,6 +1,6 @@
 ;(function(){
 
-    var configPath = "./config.json";
+    var configPath = "javascript/config.json";
     var jqueryPath = "https://code.jquery.com/jquery-2.0.0.js";
 
     var TTS;
