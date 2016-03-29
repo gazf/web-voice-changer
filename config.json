@@ -1,0 +1,23 @@
+{    
+    "Element": {
+        "status": "#status",
+        "interim": "#interim",
+        "confirm": "#confirm",
+        "toggle": "#toggle"
+    },
+
+    "Recognition": {
+        "lang": "ja-JP",
+        "interimResults": true,
+        "continuous": false
+    },
+
+    "VoiceTextAPI": {
+        "speaker": "hikari",
+        "format": "ogg",
+        "emotion": "happiness",
+        "emotion_level": 3,
+        "proxy": "./proxy.php",
+        "query": "speaker=<speaker>&format=<format>&emotion=<emotion>&emotion_level=<emotion_level>"
+    }
+}
